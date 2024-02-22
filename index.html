@@ -1,12 +1,48 @@
-/* Javascript 샘플 코드 */
-
 <!DOCTYPE html>
 <html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <title>서울시 열린데이터 광장 OpenAPI 샘플(Javascript)</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="/common/header.css" />
+    <link rel="stylesheet" href="/section/main.css" />
+    <link rel="stylesheet" href="/section/cardlist.css" />
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="titlelogo">
+          <img src="image/sema logo.png" alt="#" />
+        </div>
+        <div class="titletext">
+          <h2>SeMA 소장품 정보</h2>
+          <h5>서울시립미술관이 소장한 작품을 살펴 보세요.</h5>
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <section class="filter">
+        <h4>필터</h4>
+        <img src="image/icon-down.png" alt="" />
+      </section>
+      <section class="cardlist">
+        <div class="art-img">
+          <img src="image/art-img.jpeg" alt="" />
+        </div>
+        <div class="art-text">
+          <div class="art-title">
+            <h4>작품명</h4>
+          </div>
+          <div class="art-sub">
+            <h6>작가명</h6>
+            <h6>년도</h6>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
     <!-- 6165474d6e73303837396353424777 -->
     <script src="data.js"></script>
     <script>

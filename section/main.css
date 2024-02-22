@@ -1,0 +1,44 @@
+.main-container {
+  width: 100%;
+  max-width: 430px;
+  height: 100vh;
+  background: #d9d9d9;
+  margin: auto;
+  padding: 24px 12px;
+}
+
+.main-container .filter {
+  display: flex;
+  justify-content: end;
+}
+
+.main-container .filter h4 {
+  margin: auto 0 auto auto;
+}
+
+.main-container .cardlist {
+  width: 50%;
+  height: auto;
+  max-width: 179px;
+  max-height: 296px;
+}
+
+.main-container .art-img {
+  width: 100%;
+  height: 240px;
+}
+
+.main-container .art-img img {
+  max-width: 179px;
+  max-height: 240px;
+}
+
+.main-container .art-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .art-sub {
+  display: flex;
+  column-gap: 8px;
+}

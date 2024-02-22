@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  margin: auto;
+  padding: 12px;
+  background: #ddd;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+header .titletext {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+
+header .titletext h2 {
+  font-weight: 700;
+}
+
+header .titletext h5 {
+  font-weight: 400;
+}
